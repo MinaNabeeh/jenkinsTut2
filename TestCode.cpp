@@ -1,9 +1,14 @@
 #include <iostream>
-
+#include <fstream>
 using namespace std;
 int main(){
+cout<<"start OF Project"<<endl;
 
-cout<<"Hello !!"<<endl;;;
-
+ofstream myFile;
+myFile.open("TestResult.txt");
+int x=5+5;
+myFile<<"result is "<<x<<endl;
+cout<<"x is "<<x<<endl;
+cout<<"end Of Project"<<endl;
 return 0;
 }

@@ -6,7 +6,7 @@ cout<<"start OF Project"<<endl;
 
 ofstream myFile;
 myFile.open("TestResult.txt");
-int x=5+0+10+1+11;
+int x=5+0+10+1+13;
 myFile<<"result is "<<x<<endl;
 cout<<"x is "<<x<<endl;
 cout<<"end Of Project"<<endl;
